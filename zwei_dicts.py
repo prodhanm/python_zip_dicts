@@ -5,7 +5,7 @@ def two_dicts():
     for (char1, num1), (char2, num2) in \
         zip(first_dict.items(), second_dict.items()):
         if char1 == char2:
-            print(char1,':',num1,',',num2)
+            print(f"{char1}: {num1},{num2}")
 
 def main():
     two_dicts()
